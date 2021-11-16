@@ -1,0 +1,110 @@
+/* Text Elements */
+
+blockquote.blockquote-1 {
+  text-align: center;
+
+  grid-area: greeting;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+          align-self: center;
+  justify-self: center;
+}
+
+a.link-text.text-link-1 {
+  grid-area: Main;
+}
+
+a.link-text.text-link-2 {
+  -ms-flex-order: 0;
+
+  grid-area: FTTH;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+     -moz-box-ordinal-group: 1;
+          order: 0;
+}
+
+a.link-text.text-link-3 {
+  -ms-flex-order: 0;
+
+  grid-area: circuit;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+     -moz-box-ordinal-group: 1;
+          order: 0;
+}
+
+a.link-text.text-link-4 {
+  background-color: #46217b;
+  color: #eee;
+  font-weight: 700;
+
+  grid-area: Escalations;
+}
+
+a.link-text {
+  visibility: visible;
+  float: left;
+  border: 1px solid #b3b3b3;
+  background-color: #eee;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+  justify-self: auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+          align-self: center;
+}
+
+a.link-text:focus {
+  background-color: #2029cc;
+  color: #eee;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a.link-text:hover {
+  background-color: #a1a1a1;
+  color: #eee;
+  text-decoration: none;
+}
+
+a.link-text:active {
+  background-color: #2029cc;
+  color: #eee;
+  text-decoration: none;
+}
+
+.container-grid.page {
+  display: grid;
+  height: 100vh;
+
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2 , 2fr) 1fr 10fr;
+  grid-template-areas: 'banner' 'greeting' 'nav' 'doc';
+}
+
+div.responsive-picture.picture-1 {
+  grid-area: banner;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+          align-self: center;
+}
+
+.html-element.html-element-1 {
+  grid-area: doc;
+}
+
+.container-grid.nav {
+  display: grid;
+  max-height: none;
+
+  grid-area: nav;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 'Main FTTH circuit Escalations';
+  align-self: center;
+}

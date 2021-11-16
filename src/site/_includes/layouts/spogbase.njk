@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="RSD 5.0.3470">
+    <title>{{ spog.greeting }}</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+      document.createElement("picture");
+    </script>
+    <script class="picturefill" async="async" src="{{ '/assets/js/picturefill.min.js/' | url }}"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    {% set css %}
+    {% include "css/main.css" %}
+       {% endset %}
+    <style>
+      {{css | cssmin | safe}}
+    </style>
+    {% set js %}
+    {% include "js/picturefill.min.js" %}
+    {% endset %}
+    <script>
+      {{ js | jsmin | safe }}
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       
+  </head>
+
+  <body>
+       <script>
+          $(document).ready(function() {
+             $("a").click(function(){
+             $("li").removeClass("active");
+             $(this).addClass("active");
+           });
+          });
+          </script>
+    <div class="container-grid page">
+      <div class="responsive-picture picture-1rounded center-block text-center">
+        <picture>
+          <img class="" alt="Placeholder Picture" width="200" src="{{ spog.logo }}" loading="lazy">
+        </picture>
+      </div>
+      <blockquote class="blockquote-1 text-center">“Thank you for calling {{ spog.greeting }}.<br>My name is ______, may I have your name and phone number please?”<br></blockquote>
+      <nav class="container-grid nav center-block text-center navbar" id="nav">
+        <ul class="nav nav-pills nav-justified center-block text-center">
+          <li class="nav-item list-item-link active">
+            <a class="nav-link" href="{{ spog.main }}" target="docframe">Main Page</a>
+          </li>
+          {% if spog.ftth != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.ftth }}" target="docframe">FTTH</a>
+            </li>
+          {% endif %}
+          {% if spog.cableinternet != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.cableinternet }}" target="docframe">Cable Internet</a>
+            </li>
+          {% endif %}
+          {% if spog.fixedwireless != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.fixedwireless }}" target="docframe">Fixed Wireless</a>
+            </li>
+          {% endif %}
+          {% if spog.dsl != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.dsl }}" target="docframe">DSL</a>
+            </li>
+          {% endif %}
+          {% if spog.dialup != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.dialup }}" target="docframe">Dialup</a>
+            </li>
+          {% endif %}
+          {% if spog.iptv != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.iptv }}" target="docframe">IPTV</a>
+            </li>
+          {% endif %}
+          {% if spog.catv != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.catv }}" target="docframe">CATV</a>
+            </li>
+          {% endif %}
+          {% if spog.streamingtv != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.streamingtv }}" target="docframe">Streaming TV</a>
+            </li>
+          {% endif %}
+          {% if spog.email != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.email }}" target="docframe">Email</a>
+            </li>
+          {% endif %}
+          {% if spog.businessvip != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.businessvip }}" target="docframe">Business priority/VIP</a>
+            </li>
+          {% endif %}
+          {% if spog.specialcircuits != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.specialcircuits }}" target="docframe">Special Circuits</a>
+            </li>
+          {% endif %}
+          {% if spog.linelocates != "" %}
+            <li class="nav-item list-item-link">
+              <a class="nav-link" href="{{ spog.linelocates }}" target="docframe">Streaming TV</a>
+            </li>
+          {% endif %}
+          <li class="nav-item list-item-link escalations">
+            <a class="nav-link" href="{{ spog.escalations }}" target="docframe">Escalations</a>
+          </li>
+  
+        </nav>
+        <div class="html-element html-element-1">
+          <embed allowtransparency="true" scrolling="yes" frameborder="0" seamless src="{{ spog.main }}" name="docframe" id="docframe" width="100%" height="1000rem" style="overflow-x:hidden;"></embed>
+        </div>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      {% set js %}
+      {% include "js/outofview.js" %}
+      {% endset %}
+      <script>
+        {{ js | jsmin | safe }}
+      </script>
+
+    </body>
+
+  </html>

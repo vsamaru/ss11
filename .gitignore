@@ -1,0 +1,15 @@
+# dependencies installed by npm or yarn
+/node_modules
+dist/
+
+# build artefacts
+
+
+# secrets and errors
+.env
+/yarn-error.log
+
+# macOS related files
+.DS_Store
+.AppleDouble
+.LSOverride

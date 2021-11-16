@@ -1,0 +1,140 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/list/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/od6/public/values"
+        },
+        "updated": {
+            "$t": "2021-08-06T14:55:07.991Z"
+        },
+        "category": [{
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+        }],
+        "title": {
+            "type": "text",
+            "$t": "Sheet1"
+        },
+        "link": [{
+                "rel": "alternate",
+                "type": "application/atom+xml",
+                "href": "https://docs.google.com/spreadsheets/u/0/d/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/pubhtml"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#feed",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/od6/public/values"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#post",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/od6/public/values"
+            },
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/od6/public/values?alt\u003djson"
+            }
+        ],
+        "author": [{
+            "name": {
+                "$t": "william.batchelor"
+            },
+            "email": {
+                "$t": "william.batchelor@neonova.net"
+            }
+        }],
+        "openSearch$totalResults": {
+            "$t": "1"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "entry": [{
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/od6/public/values/cokwr"
+            },
+            "updated": {
+                "$t": "2021-08-06T14:55:07.991Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Liv, Meg, Evan, Amanda, and McKayla! I think we have a template concept!!!"
+            },
+            "content": {
+                "type": "text",
+                "$t": "header2: Check it out!, body: Check out the google sheet here!, body2: https://docs.google.com/spreadsheets/d/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/edit?usp\u003dsharing, body3: Quick Search, body4: Easily change your paragraphs by finding the right column in the sheet., body5: Google Sheet Syncing, body6: Instantly saves and syncs snippets across all your devices., body7: Testing an embedded doc, body8: https://docs.google.com/document/d/e/2PACX-1vTyibgG7oDb65b1NGnpJ8Ecj7LRVXNygxDfq-O3yviJ-vSboxcTq8Ez6tVzgr5MFYGE9YHUY5fa2Ube/pub?embedded\u003dtrue, body9: Access Clipboard anywhere, body10:   Whether you're on the go, or at your computer, you can access all your\r\n          Clipboard snippets in a few simple clicks., body11: Supercharge your workflow, body12: We've got the tools to boost your productivity., body13: Create blacklists master, body14: Ensure sensitive information never makes its way to your clipboard, body15: Plain text snippets, body16: Remove unwanted formatting from copied text for a consistent look., body17: Sneak preview"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/od6/public/values/cokwr"
+            }],
+            "gsx$header": {
+                "$t": "Liv, Meg, Evan, Amanda, and McKayla! I think we have a template concept!!!"
+            },
+            "gsx$header2": {
+                "$t": "Check it out!"
+            },
+            "gsx$body": {
+                "$t": "Check out the google sheet here!"
+            },
+            "gsx$body2": {
+                "$t": "https://docs.google.com/spreadsheets/d/19FdgAvMbr8eAyw1qjAcSYwZg2Wf06mZsk9XYvNTDyTc/edit?usp\u003dsharing"
+            },
+            "gsx$body3": {
+                "$t": "Quick Search"
+            },
+            "gsx$body4": {
+                "$t": "Easily change your paragraphs by finding the right column in the sheet."
+            },
+            "gsx$body5": {
+                "$t": "Google Sheet Syncing"
+            },
+            "gsx$body6": {
+                "$t": "Instantly saves and syncs snippets across all your devices."
+            },
+            "gsx$body7": {
+                "$t": "Testing an embedded doc"
+            },
+            "gsx$body8": {
+                "$t": "https://docs.google.com/document/d/e/2PACX-1vTyibgG7oDb65b1NGnpJ8Ecj7LRVXNygxDfq-O3yviJ-vSboxcTq8Ez6tVzgr5MFYGE9YHUY5fa2Ube/pub?embedded\u003dtrue"
+            },
+            "gsx$body9": {
+                "$t": "Access Clipboard anywhere"
+            },
+            "gsx$body10": {
+                "$t": "  Whether you're on the go, or at your computer, you can access all your\r\n          Clipboard snippets in a few simple clicks."
+            },
+            "gsx$body11": {
+                "$t": "Supercharge your workflow"
+            },
+            "gsx$body12": {
+                "$t": "We've got the tools to boost your productivity."
+            },
+            "gsx$body13": {
+                "$t": "Create blacklists master"
+            },
+            "gsx$body14": {
+                "$t": "Ensure sensitive information never makes its way to your clipboard"
+            },
+            "gsx$body15": {
+                "$t": "Plain text snippets"
+            },
+            "gsx$body16": {
+                "$t": "Remove unwanted formatting from copied text for a consistent look."
+            },
+            "gsx$body17": {
+                "$t": "Sneak preview"
+            }
+        }]
+    }
+}

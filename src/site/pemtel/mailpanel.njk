@@ -1,0 +1,134 @@
+---
+title: PemTel
+layout: emailpanel
+---
+{%- for item in mailsettings.content -%}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9 .embed-responsive-item">
+      <embed width="100%" height="100%" frameborder="0" seamless src="https://zingtree.com/deploy/tree.php?z=embed&tree_id=582494179"></embed>
+    </div>
+    <div class="col-sm-3">
+
+      <div class="panel panel-lav">
+        <h4>
+          <strong>Server Settings</strong>
+        </h4>
+        <div class="alert alert-warning center" role="alert">
+          <strong>Note:</strong> Other mail settings may work but the settings listed below are the preferred settings. Update to preferred settings when troubleshooting.
+              </div>
+       
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="panel panel-purple center">
+              <h5>Incoming POP3</h5>
+              <div id="pop">
+                {% if item.body3 %}{{ item.body3 }}
+                {% else %}{{ item.body4 }}{% endif %}</div>
+                <div id="popPorts">SSL: Yes Port 995<br>
+                      Full Email Auth</div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="panel panel-purple center">
+                <h5>Incoming IMAP</h5>
+                <div id="imap">
+                  {% if item.body2 %}
+                  {{ item.body2 }}
+                  {% else %}
+                  {{ item.body5 }}
+                  {% endif %}</div>
+                  <div id="imapPorts">SSL: Yes Port 993<br>
+                      Full Email Auth</div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="panel panel-purple center">
+                  <h5> Outgoing SMTP</h5>
+                  <div id="smtp">{{ item.body6 }}</div>
+                  <div class="row">
+                    <div id="smtpPortsSSL" class="col-sm-6 center">SSL: Yes<br>Port 465</div>
+                    <div id="smtpPortsSSL" class="col-sm-6 center">SSL: No<br>Port 587</div>
+                    <div class="col-md-12 center"><br/>Full Email Auth</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-lav">
+            <h4>
+              <strong>Member Specific Information</strong>
+            </h4>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Primary Domain:</h5>
+                  <div id="primary">{{ item.body7 }}</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Secondary Domains:</h5>
+                  <div id="secondary">{{ item.body8 }}</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Alias Domains:</h5>
+                  <div id="alias">{{ item.body9 }}</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Business Domains:</h5>
+                  <div id="business">{{ item.body10 }}</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Webmail Site</h5>
+                  <div id="webmail">{{ item.body }}</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Test Email Account</h5>
+                  <strong>UN: </strong>
+                  <span id="emailacct">techsupport@{{ item.header2 }}</span>
+                  <p>
+                    <strong>PW: </strong>
+                    <span id="techsupportpass">{{ item.body11 }}</span></p>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Additional Ticketing Information:</h5>
+                  <span id="ticketing">{{ item.body12 }}</span>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Remote into Device Allowed?</h5>
+                  <span id="remote">{{ item.body13 }}</span>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>New Account Process</h5>
+                  <span id="newAcct">{{ item.body14 }}</span>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-purple center">
+                  <h5>Password Change Procedure</h5>
+                  <span id="passChange">{{ item.body15 }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+{%- endfor -%}

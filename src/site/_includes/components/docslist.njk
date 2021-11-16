@@ -1,0 +1,35 @@
+<section>
+	{% for doc in docslist | reverse %}
+		<article{% if doc.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ doc.url | url }}">
+					{% if doc.data.title %}
+						{{ doc.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if doc.data.summary %}
+				<p>
+					{{ doc.data.summary }}
+				</p>
+			{% endif %}
+			<p>
+				<time datetime="{{ doc.date | machineDate }}">
+					<small>{{ doc.date | readableDate }}</small>
+				</time>
+			</p>
+			{% if doc.data.tags %}
+				<p>
+					{% for tag in doc.data.tags %}
+		  			{%- if tag != "doc" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>

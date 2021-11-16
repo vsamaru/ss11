@@ -1,0 +1,140 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/list/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/od6/public/values"
+        },
+        "updated": {
+            "$t": "2021-08-06T19:23:44.793Z"
+        },
+        "category": [{
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+        }],
+        "title": {
+            "type": "text",
+            "$t": "Sheet1"
+        },
+        "link": [{
+                "rel": "alternate",
+                "type": "application/atom+xml",
+                "href": "https://docs.google.com/spreadsheets/u/0/d/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/pubhtml"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#feed",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/od6/public/values"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#post",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/od6/public/values"
+            },
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/od6/public/values?alt\u003djson"
+            }
+        ],
+        "author": [{
+            "name": {
+                "$t": "william.batchelor"
+            },
+            "email": {
+                "$t": "william.batchelor@neonova.net"
+            }
+        }],
+        "openSearch$totalResults": {
+            "$t": "1"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "entry": [{
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/od6/public/values/cokwr"
+            },
+            "updated": {
+                "$t": "2021-08-06T19:23:44.793Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Hancock Telephone Company"
+            },
+            "content": {
+                "type": "text",
+                "$t": "header2: hancock.net, body: webmail.hancock.net\n, body2: mail.hancock.net\n, body3: pop.hancock.net\n, body5: imap.hancock.net\n, body6: smtp.hancock.net\n"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/168p6M2Y8SyRh0CuDsqIgQ7Ab81zW4Lsm73aDsFFSZMU/od6/public/values/cokwr"
+            }],
+            "gsx$header": {
+                "$t": "Hancock Telephone Company"
+            },
+            "gsx$header2": {
+                "$t": "hancock.net"
+            },
+            "gsx$body": {
+                "$t": "webmail.hancock.net\n"
+            },
+            "gsx$body2": {
+                "$t": "mail.hancock.net\n"
+            },
+            "gsx$body3": {
+                "$t": "pop.hancock.net\n"
+            },
+            "gsx$body4": {
+                "$t": ""
+            },
+            "gsx$body5": {
+                "$t": "imap.hancock.net\n"
+            },
+            "gsx$body6": {
+                "$t": "smtp.hancock.net\n"
+            },
+            "gsx$body7": {
+                "$t": ""
+            },
+            "gsx$body8": {
+                "$t": ""
+            },
+            "gsx$body9": {
+                "$t": ""
+            },
+            "gsx$body10": {
+                "$t": ""
+            },
+            "gsx$body11": {
+                "$t": ""
+            },
+            "gsx$body12": {
+                "$t": ""
+            },
+            "gsx$body13": {
+                "$t": ""
+            },
+            "gsx$body14": {
+                "$t": ""
+            },
+            "gsx$body15": {
+                "$t": ""
+            },
+            "gsx$body16": {
+                "$t": ""
+            },
+            "gsx$body17": {
+                "$t": ""
+            }
+        }]
+    }
+}

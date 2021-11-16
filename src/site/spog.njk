@@ -1,0 +1,10 @@
+---
+layout: "layouts/spogbase.njk"
+pagination:
+  data: spog.content
+  alias: spog
+  size: 1
+templateEngineOverride: liquid
+permalink: "/{{ spog.member | slug }}/spog/"
+---
+{{ content | safe }}
